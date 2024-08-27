@@ -1,0 +1,10 @@
+{
+  "extends": "@rslib/tsconfig/base", // will panic
+  // "extends": "@tsconfig/strictest/tsconfig", // will not panic
+  "compilerOptions": {},
+  "include": ["src"],
+  "exclude": ["**/node_modules"],
+  "ts-node": {
+    "transpileOnly": true
+  }
+}

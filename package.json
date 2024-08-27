@@ -1,0 +1,14 @@
+{
+  "name": "rspack-resolver-tsconfig-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "pnpm@8.15.3",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rspack/cli": "^1.0.0-rc.1",
+    "@rspack/core": "1.0.0-rc.1"
+  }
+}

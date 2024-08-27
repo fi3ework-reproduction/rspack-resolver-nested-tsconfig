@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo/app",
+  "private": true,
+  "scripts": {
+    "build": "rspack --config rspack.config.mjs"
+  },
+  "dependencies": {
+    "@rslib/tsconfig": "workspace:*",
+    "@tsconfig/strictest": "^2.0.5",
+    "es-module-lexer": "^1.4.1",
+    "esbuild-loader": "^4.0.3",
+    "ts-loader": "^9.5.1"
+  }
+}
